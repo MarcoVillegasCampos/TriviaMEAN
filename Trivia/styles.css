@@ -1,0 +1,42 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    width: 90rem;
+    height: 56rem;
+    margin: 1rem auto;
+    text-align: center;
+    border: 2px solid white;  
+    background-color: gray; 
+}
+#title {
+    text-align: center;
+}
+.columns {
+    display: inline-block;
+    vertical-align: top;
+    width: 13rem;
+    height: 50rem;
+    text-align: center;
+}
+.boxes {
+
+    color: white;
+    background-color: black;
+    width: fit-content;
+    height: fit-content;
+    padding: 2px;
+    margin: 3px auto;
+    border: 2px solid white;
+    border-radius: 7px;
+}
+.right {
+    float: right;
+}
+.points {
+    margin: 5.2rem 5rem;
+}
+.center {
+    text-align: center;
+}
